@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e7ce385-76ff-4b88-b574-05f581cd8d5d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../../DevelopmentTool/maven/mvn_repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../DevelopmentTool/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../DevelopmentTool/maven/apache-maven-3.6.0/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Z4ilcS2F0CsLBiOm6wa1EFtBVk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/17GOssjq-common-resources/src/main/java/com/wenmxr/utils" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/17GOssjq-common-resources/src/main/java/com/wenmxr/utils" />
+      <recent name="$PROJECT_DIR$/17GOssjq-seckill-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/17GOssjq-seckill-service/src/main/java/com/wenmxr/seckill" />
+      <recent name="$PROJECT_DIR$/17GOssjq-seckill-service/src/main/java/com/wenmxr/seckill/" />
+      <recent name="$PROJECT_DIR$/17GOssjq-product-service/src/main/java/com/wenmxr/product/service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.StarterSearch">
+    <configuration name="jTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="17GOssjq-product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.jTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterCart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="17GOssjq-cart-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.cart.StarterCart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterEurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="17GOssjq-eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenmxr.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.StarterEurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterImg" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="17GOssjq-img-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenmxr.img.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.img.StarterImg" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterProduct" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="17GOssjq-product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.product.StarterProduct" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterSearch" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="17GOssjq-search-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenmxr.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.search.StarterSearch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterSeckill" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="17GOssjq-seckill-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.seckill.StarterSeckill" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterUser" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="17GOssjq-user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.user.StarterUser" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterZuul" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="17GOssjq-ruul-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenmxr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.StarterZuul" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StraterOrder" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="17GOssjq-order-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wenmxr.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wenmxr.order.StraterOrder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.StraterOrder" />
+        <item itemvalue="Spring Boot.StarterZuul" />
+        <item itemvalue="Spring Boot.StarterSearch" />
+        <item itemvalue="Spring Boot.StarterImg" />
+        <item itemvalue="JUnit.jTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19357195" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e7ce385-76ff-4b88-b574-05f581cd8d5d" name="Default Changelist" comment="" />
+      <created>1584104918729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584104918729</updated>
+      <workItem from="1584104926171" duration="5212000" />
+      <workItem from="1584177028518" duration="64000" />
+      <workItem from="1584802742092" duration="1616000" />
+      <workItem from="1584864604312" duration="3498000" />
+      <workItem from="1584882389609" duration="703000" />
+      <workItem from="1584884993382" duration="3346000" />
+      <workItem from="1584889639659" duration="2115000" />
+      <workItem from="1585061666853" duration="3118000" />
+      <workItem from="1586080889114" duration="675000" />
+      <workItem from="1586362117723" duration="497000" />
+      <workItem from="1586442456320" duration="2487000" />
+      <workItem from="1586450539729" duration="463000" />
+      <workItem from="1586451066620" duration="1151000" />
+      <workItem from="1586598077001" duration="2198000" />
+      <workItem from="1586612584433" duration="3505000" />
+      <workItem from="1586697120320" duration="3653000" />
+      <workItem from="1586785479493" duration="7682000" />
+      <workItem from="1586868863961" duration="924000" />
+      <workItem from="1586878014842" duration="2323000" />
+      <workItem from="1587395964724" duration="268000" />
+      <workItem from="1587478898706" duration="118000" />
+      <workItem from="1587479762021" duration="2074000" />
+      <workItem from="1587568334514" duration="1187000" />
+      <workItem from="1587829358246" duration="2447000" />
+      <workItem from="1587913416551" duration="2665000" />
+      <workItem from="1588947019033" duration="1051000" />
+      <workItem from="1589163345308" duration="1550000" />
+      <workItem from="1589263647502" duration="3470000" />
+      <workItem from="1589356087802" duration="1502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="322" y="107" key="#Project_Structure" timestamp="1585068560089">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="322" y="107" key="#Project_Structure/4.0.1436.900@4.0.1436.900" timestamp="1585068560089" />
+    <state x="322" y="127" key="#Project_Structure/4.23.1436.877@4.23.1436.877" timestamp="1584106275820" />
+    <state x="344" y="72" key="#StarterProduct" timestamp="1584885068240">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="344" y="72" key="#StarterProduct/4.0.1436.900@4.0.1436.900" timestamp="1584885068240" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586877206615">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/4.0.1436.900@4.0.1436.900" timestamp="1586877206615" />
+    <state x="482" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584885372342">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="482" y="351" key="#com.intellij.ide.util.TreeClassChooserDialog/4.0.1436.900@4.0.1436.900" timestamp="1584885372342" />
+    <state x="526" y="394" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584106019343">
+      <screen x="4" y="23" width="1436" height="877" />
+    </state>
+    <state x="526" y="394" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/4.23.1436.877@4.23.1436.877" timestamp="1584106019343" />
+    <state x="412" y="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584889325068">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="412" y="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/4.0.1436.900@4.0.1436.900" timestamp="1584889325068" />
+    <state width="1103" height="202" key="GridCell.Tab.0.bottom" timestamp="1589270905781">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.0.bottom/4.0.1436.900@4.0.1436.900" timestamp="1589270905781" />
+    <state width="1103" height="202" key="GridCell.Tab.0.bottom/4.23.1436.877@4.23.1436.877" timestamp="1589264226332" />
+    <state width="1103" height="202" key="GridCell.Tab.0.center" timestamp="1589270905780">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.0.center/4.0.1436.900@4.0.1436.900" timestamp="1589270905780" />
+    <state width="1103" height="202" key="GridCell.Tab.0.center/4.23.1436.877@4.23.1436.877" timestamp="1589264226330" />
+    <state width="1103" height="202" key="GridCell.Tab.0.left" timestamp="1589270905779">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.0.left/4.0.1436.900@4.0.1436.900" timestamp="1589270905779" />
+    <state width="1103" height="202" key="GridCell.Tab.0.left/4.23.1436.877@4.23.1436.877" timestamp="1589264226329" />
+    <state width="1103" height="202" key="GridCell.Tab.0.right" timestamp="1589270905780">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.0.right/4.0.1436.900@4.0.1436.900" timestamp="1589270905780" />
+    <state width="1103" height="202" key="GridCell.Tab.0.right/4.23.1436.877@4.23.1436.877" timestamp="1589264226331" />
+    <state width="1103" height="202" key="GridCell.Tab.1.bottom" timestamp="1589270905784">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.1.bottom/4.0.1436.900@4.0.1436.900" timestamp="1589270905784" />
+    <state width="1103" height="202" key="GridCell.Tab.1.bottom/4.23.1436.877@4.23.1436.877" timestamp="1589264226379" />
+    <state width="1103" height="202" key="GridCell.Tab.1.center" timestamp="1589270905782">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.1.center/4.0.1436.900@4.0.1436.900" timestamp="1589270905782" />
+    <state width="1103" height="202" key="GridCell.Tab.1.center/4.23.1436.877@4.23.1436.877" timestamp="1589264226337" />
+    <state width="1103" height="202" key="GridCell.Tab.1.left" timestamp="1589270905782">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.1.left/4.0.1436.900@4.0.1436.900" timestamp="1589270905782" />
+    <state width="1103" height="202" key="GridCell.Tab.1.left/4.23.1436.877@4.23.1436.877" timestamp="1589264226336" />
+    <state width="1103" height="202" key="GridCell.Tab.1.right" timestamp="1589270905783">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.1.right/4.0.1436.900@4.0.1436.900" timestamp="1589270905783" />
+    <state width="1103" height="202" key="GridCell.Tab.1.right/4.23.1436.877@4.23.1436.877" timestamp="1589264226339" />
+    <state width="1103" height="202" key="GridCell.Tab.2.bottom" timestamp="1588956217853">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.2.bottom/4.0.1436.900@4.0.1436.900" timestamp="1588956217853" />
+    <state width="1103" height="202" key="GridCell.Tab.2.center" timestamp="1588956217852">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.2.center/4.0.1436.900@4.0.1436.900" timestamp="1588956217852" />
+    <state width="1103" height="202" key="GridCell.Tab.2.left" timestamp="1588956217851">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.2.left/4.0.1436.900@4.0.1436.900" timestamp="1588956217851" />
+    <state width="1103" height="202" key="GridCell.Tab.2.right" timestamp="1588956217853">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state width="1103" height="202" key="GridCell.Tab.2.right/4.0.1436.900@4.0.1436.900" timestamp="1588956217853" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1587913550337">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/4.0.1436.900@4.0.1436.900" timestamp="1587913550337" />
+    <state x="166" y="50" key="SettingsEditor" timestamp="1589357287432">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="166" y="50" key="SettingsEditor/4.0.1436.900@4.0.1436.900" timestamp="1589357287432" />
+    <state x="229" y="89" key="SettingsEditor/4.23.1436.877@4.23.1436.877" timestamp="1584870869075" />
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584890010580">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/4.0.1436.900@4.0.1436.900" timestamp="1584890010580" />
+    <state x="100" y="100" width="1240" height="700" key="git4idea.log.GitShowExternalLogAction" timestamp="1589357064935">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="git4idea.log.GitShowExternalLogAction/4.0.1436.900@4.0.1436.900" timestamp="1589357064935" />
+    <state x="134" y="179" key="new project wizard" timestamp="1587570833656">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="134" y="179" key="new project wizard/4.0.1436.900@4.0.1436.900" timestamp="1587570833656" />
+    <state x="134" y="197" key="new project wizard/4.23.1436.877@4.23.1436.877" timestamp="1584106701376" />
+    <state x="385" y="210" key="run.anything.popup" timestamp="1584889391948">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="385" y="210" key="run.anything.popup/4.0.1436.900@4.0.1436.900" timestamp="1584889391948" />
+    <state x="558" y="248" key="svn.repositoryBrowser" timestamp="1589357324286">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="558" y="248" key="svn.repositoryBrowser/4.0.1436.900@4.0.1436.900" timestamp="1589357324286" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wenmxr.product.mapper.ProductMapper">
+	<select id="queryTotalCount" resultType="int">
+		select count(product_id) from t_product;
+	</select>
+	<select id="queryProducts" resultType="Product">
+		select * from t_product limit #{start}, #{rows};
+	</select>
+	<select id="selectProductById" parameterType="String" resultType="Product">
+		select * from t_product where product_id = #{productId};
+	</select>
+	<insert id="insertProduct" parameterType="Product">
+		insert into t_product(product_id,product_name,product_price,product_description,product_num,product_category1,product_category2,product_img1url,product_img2url,product_img3url,product_img4url,product_img5url,product_addtime) 
+		values(#{productId},#{productName},#{productPrice},#{productDescription},#{productNum},#{productCategory1},#{productCategory2},#{productImg1url},#{productImg2url},#{productImg3url},#{productImg4url},#{productImg5url},#{productAddtime});
+	</insert>
+	<update id="updateProductById" parameterType="Product">
+		update t_product set 
+		product_name=#{productName},
+		product_price=#{productPrice},
+		product_category1=#{productCategory1},
+		product_category2=#{productCategory2},
+		product_num=#{productNum},
+		product_description=#{productDescription},
+		product_img1url=#{productImg1url},
+		product_img2url=#{productImg2url},
+		product_img3url=#{productImg3url},
+		product_img4url=#{productImg4url},
+		product_img5url=#{productImg5url}
+		where product_id=#{productId};
+	</update>
+</mapper>

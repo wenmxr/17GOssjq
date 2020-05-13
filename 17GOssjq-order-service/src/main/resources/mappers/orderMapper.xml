@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wenmxr.order.mapper.OrderMapper">
+
+	<resultMap type="Order" id="orderRM">
+		<!-- 驼峰命令失效,自定义所有属性与字段的关系 -->
+		<id property="orderId" column="order_id"/>
+		<result property="orderMoney" column="order_money"/>
+		<result property="orderReceiverinfo" column="order_receiverinfo"/>
+		<result property="orderState" column="order_state"/>
+		<result property="orderTime" column="order_time"/>
+		<result property="userId" column="user_id"/>
+		<!-- 对多关系属性, -->
+		<collection property="orderItems" javaType="ArrayList" ofType="OrderItem">
+			<!-- orderItem对象的属性与字段对应关系 -->
+			<!-- id -->
+			<id property="itemId" column="item_id"/>
+			<result property="orderId" column="order_id"/>
+			<result property="productId" column="product_id"/>
+			<result property="productName" column="product_name"/>
+			<result property="productImg1url" column="product_img1url"/>
+			<result property="productPrice" column="product_price"/>
+			<result property="num" column="num"/>
+		</collection>
+	</resultMap>
+	<!-- 查询订单 t_order t_order_item -->
+	<select id="selectOrdersByUserId" parameterType="String" resultMap="orderRM">
+		<!-- 关联查询 -->
+		select * from t_order inner join t_order_item
+		on t_order.order_id=t_order_item.order_id
+		and t_order.user_id=#{userId};
+	</select>
+	<!-- 新增订单 -->
+	<insert id="insertOrderAndOrderItems" parameterType="Order">
+	<!-- 新增主表 -->
+	insert into t_order 
+	(order_id,order_money,order_receiverinfo,
+	order_time,order_state,user_id) values(
+	#{orderId},#{orderMoney},#{orderReceiverinfo},
+	#{orderTime},#{orderState},#{userId});
+	<!-- 新增子表数据 -->
+	<!-- for(OrderItem oi:orderItems) -->
+	<foreach collection="orderItems" item="oi">
+	<!-- oi都是携带过来的orderItem对象 id orderId缺少 -->
+		insert into t_order_item (order_id,product_id,num,
+		product_name,product_price,product_img1url) values(
+		#{orderId},#{oi.productId},#{oi.num},
+		#{oi.productName},#{oi.productPrice},#{oi.productImg1url}
+		);
+	</foreach>
+	</insert>
+	<!-- 删除订单 -->
+	<delete id="deleteOrder" parameterType="String">
+		delete from t_order where order_id=#{orderId};
+		delete from t_order_item where order_id=#{orderId};
+	</delete>
+	<!-- 删除购物车 -->
+	<delete id="deleteCartByUser" parameterType="String">
+		delete from t_cart where user_id=#{userId};
+	</delete>
+</mapper>

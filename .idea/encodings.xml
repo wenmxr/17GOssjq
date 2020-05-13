@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/17GOssjq-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-common-resources/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-img-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-ruul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-seckill-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/17GOssjq-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

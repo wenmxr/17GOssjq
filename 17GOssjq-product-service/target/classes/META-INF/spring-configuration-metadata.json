@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.wenmxr.product.config.ESConfig",
+      "name": "17go.es",
+      "type": "com.wenmxr.product.config.ESConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.wenmxr.product.config.ESConfig",
+      "name": "17go.es.nodes",
+      "type": "java.util.List<java.lang.String>"
+    }
+  ]
+}
