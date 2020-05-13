@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e7ce385-76ff-4b88-b574-05f581cd8d5d" name="Default Changelist" comment="" />
+    <list default="true" id="5e7ce385-76ff-4b88-b574-05f581cd8d5d" name="Default Changelist" comment="项目上传">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,14 +287,30 @@
       <workItem from="1588947019033" duration="1051000" />
       <workItem from="1589163345308" duration="1550000" />
       <workItem from="1589263647502" duration="3470000" />
-      <workItem from="1589356087802" duration="1502000" />
+      <workItem from="1589356087802" duration="3796000" />
     </task>
+    <task id="LOCAL-00001" summary="项目上传">
+      <created>1589358432349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589358432349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目上传" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Notifications" timestamp="1589359746765">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="320" y="115" key="#Notifications/4.0.1436.900@4.0.1436.900" timestamp="1589359746765" />
     <state x="322" y="107" key="#Project_Structure" timestamp="1585068560089">
       <screen x="4" y="0" width="1436" height="900" />
     </state>
@@ -318,6 +336,10 @@
       <screen x="4" y="0" width="1436" height="900" />
     </state>
     <state x="412" y="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/4.0.1436.900@4.0.1436.900" timestamp="1584889325068" />
+    <state x="195" y="53" key="CommitChangelistDialog2" timestamp="1589360337108">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="195" y="53" key="CommitChangelistDialog2/4.0.1436.900@4.0.1436.900" timestamp="1589360337108" />
     <state width="1103" height="202" key="GridCell.Tab.0.bottom" timestamp="1589270905781">
       <screen x="4" y="0" width="1436" height="900" />
     </state>
@@ -383,6 +405,10 @@
     </state>
     <state x="166" y="50" key="SettingsEditor/4.0.1436.900@4.0.1436.900" timestamp="1589357287432" />
     <state x="229" y="89" key="SettingsEditor/4.23.1436.877@4.23.1436.877" timestamp="1584870869075" />
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1589358535391">
+      <screen x="4" y="0" width="1436" height="900" />
+    </state>
+    <state x="320" y="178" key="Vcs.Push.Dialog.v2/4.0.1436.900@4.0.1436.900" timestamp="1589358535391" />
     <state x="499" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584890010580">
       <screen x="4" y="0" width="1436" height="900" />
     </state>
