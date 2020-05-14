@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e7ce385-76ff-4b88-b574-05f581cd8d5d" name="Default Changelist" comment="项目上传">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/17GOssjq_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-cart-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-cart-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-img-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-img-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-search-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-search-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-seckill-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-seckill-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17GOssjq-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/17GOssjq-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +90,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/17GOssjq-common-resources/src/main/java/com/wenmxr/utils" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -287,7 +298,8 @@
       <workItem from="1588947019033" duration="1051000" />
       <workItem from="1589163345308" duration="1550000" />
       <workItem from="1589263647502" duration="3470000" />
-      <workItem from="1589356087802" duration="3796000" />
+      <workItem from="1589356087802" duration="3811000" />
+      <workItem from="1589421499230" duration="2914000" />
     </task>
     <task id="LOCAL-00001" summary="项目上传">
       <created>1589358432349</created>
@@ -311,10 +323,10 @@
       <screen x="4" y="0" width="1436" height="900" />
     </state>
     <state x="320" y="115" key="#Notifications/4.0.1436.900@4.0.1436.900" timestamp="1589359746765" />
-    <state x="322" y="107" key="#Project_Structure" timestamp="1585068560089">
+    <state x="322" y="107" key="#Project_Structure" timestamp="1589423446296">
       <screen x="4" y="0" width="1436" height="900" />
     </state>
-    <state x="322" y="107" key="#Project_Structure/4.0.1436.900@4.0.1436.900" timestamp="1585068560089" />
+    <state x="322" y="107" key="#Project_Structure/4.0.1436.900@4.0.1436.900" timestamp="1589423446296" />
     <state x="322" y="127" key="#Project_Structure/4.23.1436.877@4.23.1436.877" timestamp="1584106275820" />
     <state x="344" y="72" key="#StarterProduct" timestamp="1584885068240">
       <screen x="4" y="0" width="1436" height="900" />
@@ -400,10 +412,10 @@
       <screen x="4" y="0" width="1436" height="900" />
     </state>
     <state x="258" y="112" key="Maven.ArtifactSearchDialog/4.0.1436.900@4.0.1436.900" timestamp="1587913550337" />
-    <state x="166" y="50" key="SettingsEditor" timestamp="1589357287432">
+    <state x="166" y="50" key="SettingsEditor" timestamp="1589422863983">
       <screen x="4" y="0" width="1436" height="900" />
     </state>
-    <state x="166" y="50" key="SettingsEditor/4.0.1436.900@4.0.1436.900" timestamp="1589357287432" />
+    <state x="166" y="50" key="SettingsEditor/4.0.1436.900@4.0.1436.900" timestamp="1589422863983" />
     <state x="229" y="89" key="SettingsEditor/4.23.1436.877@4.23.1436.877" timestamp="1584870869075" />
     <state x="320" y="178" key="Vcs.Push.Dialog.v2" timestamp="1589358535391">
       <screen x="4" y="0" width="1436" height="900" />
