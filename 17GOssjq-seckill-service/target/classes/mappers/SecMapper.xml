@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wenmxr.seckill.mapper.SecMapper">
+	<select id="selectAll" resultType="Seckill">
+		select * from seckill;
+	</select>
+	<select id="selectOneById" parameterType="int"
+	resultType="Seckill">
+		select * from seckill where seckill_id=#{seckillId};
+	</select>
+	<!-- 减库存 -->
+	<update id="updateNumberBySeckillCondition">
+		update seckill set number=number-1
+		where seckill_id=#{seckillId} and number &gt; 0
+		and #{nowTime} &lt;end_time and #{nowTime} &gt; start_time 
+	</update>
+	<insert id="insertSuccess" parameterType="Success">
+		insert into success (seckill_id,user_phone,create_time,state)
+		values (#{seckillId},#{userPhone},#{createTime},
+		#{state})
+	</insert>
+</mapper> 
