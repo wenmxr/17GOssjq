@@ -29,7 +29,7 @@
 	</select>
 	
 	<select id="queryOneAddrByUserId" parameterType="String" resultType="Address">
-		select * from t_address where user_id = #{userId} limit 1;
+		select * from t_address where user_id = #{userId} order by addr_id desc limit 1;
 	</select>
 	
 	<insert id="insertAddress" parameterType="Address">
